@@ -1,0 +1,25 @@
+{
+  "name": "s20-node-express-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "node dist/app.js",
+    "run-node": "node --experimental-transform-types app.ts",
+    "run-bun": "bun app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tasszz2k/understanding-typescript.git"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

@@ -1,0 +1,17 @@
+###
+GET localhost:3000
+Content-Type: application/json
+
+
+###
+POST localhost:3000/todos
+Content-Type: application/json
+
+{
+  "name": "test",
+  "description": "test"
+}
+
+
+###
+GET localhost:3000/todos
